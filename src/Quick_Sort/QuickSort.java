@@ -6,6 +6,7 @@ package Quick_Sort;
 // 피벗 값을 기준으로 양쪽으로 찾는데, 왼쪽 에서 오른쪽 으로 갈때는 피벗 보다 큰값,
 // 오른쪽에서 왼쪽으로 갈때는 피벗보다 작은 값을 찾고 둘을 바꿈
 // 찾다가 큰값과 작은값의 인덱스가 엇갈리면 피벗값과 작은 값을 바꿈.
+// 단 최악의 경우 시간 복잡도는 O(N * N)
 
 public class QuickSort {
     public static int number = 10;
