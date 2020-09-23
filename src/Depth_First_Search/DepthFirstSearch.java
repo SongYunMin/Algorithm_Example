@@ -1,6 +1,5 @@
 package Depth_First_Search;
 
-
 import java.util.Scanner;
 
 class DfsGraph{
@@ -27,6 +26,9 @@ class DfsGraph{
         return this.dfsGraph;
     }
     // 그래프 추가(단방향)
+
+
+
     public void putSingle(int x, int y){
         this.dfsGraph[x][y] = 1;
     }
@@ -153,6 +155,3 @@ class DFSAdjArr {
         dfsGraph.dfs(8);
     }
 }
-
-
-
